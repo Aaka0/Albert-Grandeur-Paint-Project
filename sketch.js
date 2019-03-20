@@ -23,7 +23,8 @@ function setup() {
     
       // create sliders
     var rSlider = createSlider(20, 100, 30);
-    rSlider.position(800, 1000);
+    rSlider.position(800, 650);
+    
     
     //create a toolbox for storing the tools
     toolbox = new Toolbox();
@@ -37,6 +38,8 @@ function setup() {
     toolbox.addTool(new BrushTool(rSlider));  // new tools added
     toolbox.addTool(new spiralTool());
     toolbox.addTool(new fillTool());
+    toolbox.addTool(new Randomcircle());
+   // toolbox.addTool(new bubbleremoverTool());
     
 
 }
