@@ -63,7 +63,7 @@ function fillTool(){
     
     
     
-//    mousepressed function
+//    mousepressed function Make mouse press function, replace m2p and current colour with this.
         
                 
         loadPixels();  // m2p stores the mouse pos to the array pos
